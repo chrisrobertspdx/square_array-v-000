@@ -5,7 +5,7 @@ def square_array(array)
     #result << e ** 2
     result << e ** 2
   end
-  result 
+  result
 end
 
-square_array([5])
+puts square_array([5])
