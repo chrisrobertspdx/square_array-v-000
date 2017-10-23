@@ -3,6 +3,8 @@ def square_array(array)
   result = []
   array.each do |e|
     #result << e ** 2
-    puts e ** 2
+    puts "hi"
   end
 end
+
+square_array(5)
