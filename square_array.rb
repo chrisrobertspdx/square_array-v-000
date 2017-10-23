@@ -8,4 +8,4 @@ def square_array(array)
   result
 end
 
-square_array([5]).inspect
+square_array([5,7]).inspect
