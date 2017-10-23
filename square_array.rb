@@ -8,4 +8,14 @@ def square_array(array)
   result
 end
 
-puts square_array([5,7]).inspect
+def square_array2(array)
+  # your code here
+
+  return array.collect do |e|
+    #result << e ** 2
+    e ** 2
+  end
+
+end
+
+puts square_array2([5,7]).inspect
